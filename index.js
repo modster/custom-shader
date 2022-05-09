@@ -17,7 +17,7 @@ let filter;
 
 // Handle the load completed
 function onLoaded(loader, res) {
-    // Create the new filter, arguments: (vertexShader, framentSource)
+    // Create the new filter, arguments: (vertexShader, fragmentSource)
     filter = new PIXI.Filter(null, res.shader.data, {
         customUniform: 0.0,
     });
